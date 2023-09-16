@@ -1,0 +1,16 @@
+php artisan make:migration create_users_table
+php artisan migrate
+
+php artisan make:controller UserController
+
+Import in web.php
+use App\Http\Controllers\UserController;
+
+Import in model in controler
+use App\Models\User;
+
+
+  
+
+
+
